@@ -8,9 +8,7 @@ npx thirdweb create --template next-javascript-starter
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-On `pages/_app.js`, you'll find our `ThirdwebProvider` wrapping your app, this is necessary for our hooks to work.
-
-on `pages/index.js`, you'll find the `useMetamask` hook that we use to connect the user's wallet to MetaMask, `useDisconnect` that we use to disconnect it, and `useAddress` to check the user's wallet address once connected. 
+On `pages/_app.js`, you'll find our `ThirdwebProvider` wrapping your app to set up our React SDK.
 
 ## Learn More
 
